@@ -1,0 +1,539 @@
+@media screen and (max-width: 1450px) {
+    .content1-section,.content2-section,.content4-section,.content7-section,.content8-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 360px;
+    
+    margin-top: -80px;
+    }
+    .box-1-1{
+        max-width: 130px;
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-top: 50px;
+        
+    }
+    .box-1-1-1,.box-4-1-1{
+        max-width: 130px;
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-top: 50px;
+        flex: 1 1 100%; 
+        min-height: 100px;
+    }
+    .box-4-1-2{
+        max-width: 130px;
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-top: 0px;
+        flex: 1 1 100%; 
+        min-height: 100px;
+
+    }
+    .boxs-4-1-1{
+        max-width: 130px;
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-top: 50px;
+        flex: 1 1 100%; 
+       
+    
+    }
+   
+    .box-1-1-2 {
+        max-width: 130px;
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-top: 0px;
+        flex: 1 1 100%; 
+        min-height: 100px;
+
+    }
+.box-2-1{
+    
+        max-width: 130px;
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-top: 50px;
+        
+    
+}
+.box-2-2{
+    max-width: 130px;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    margin-top: 0px;
+}
+.content3,
+.content7,
+.content8{
+    display: flex;
+flex-direction: column;
+   min-width: 420px;
+}
+.content3-section,
+.content7-section,
+.content8-section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+    margin-top: -80px;
+    
+}
+.content3-see-more {
+    display: block;
+    text-decoration: none;
+    color: #007185;
+    padding-left: 20px;
+    margin-top: 20px; 
+    position: relative;
+    z-index: 1;
+}
+
+
+.box-3-1,
+.box-7-2,
+.box-8-2{
+    max-width: 100%;
+    width: 260px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 50px;
+    
+}
+}
+
+
+@media screen and (max-width: 1239px) {
+    
+    .contents {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 20px;
+        max-width: 1500px;  
+       border-color: transparent;
+        border-width: 20px;
+        margin: -500px auto 0;
+        position: relative;
+        z-index: 10;
+    }
+
+    .box-1-1{
+        max-width: 150px;
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-top: 70px;
+        flex: 1 1 100%; 
+        min-height: 100px;
+    }
+    .boxs-1-1{
+        max-width: 150px;
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-top: 50px;
+        flex: 1 1 100%; 
+        min-height: 100px;
+       
+    }
+    .boxs-1-2{
+        max-width: 150px;
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-top: 50px;
+        flex: 1 1 100%; 
+        min-height: 100px;
+
+    }
+        .box-1-1-1{
+            max-width: 150px;
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            margin-top: 70px;
+            flex: 1 1 100%; 
+            min-height: 100px;
+            
+        }
+        .box-1-1-2{
+            max-width: 150px;
+            width: 100%;
+            object-fit: cover;
+            flex: 1 1 100%; 
+            min-height: 100px;
+       
+           
+        }
+        .box-1-1-3{
+            max-width: 150px;
+            width: 100%;
+            object-fit: cover;
+            flex: 1 1 100%; 
+            min-height: 100px;
+        }
+        .box-4-1-1{
+            max-width: 150px;
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            margin-top: 50px;
+            flex: 1 1 100%; 
+        }
+        .boxs-4-1-1{
+            max-width: 150px;
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            margin-top: 50px;
+            flex: 1 1 100%; 
+           
+        
+        }
+      
+        .box-4-1-2{
+            max-width: 150px;
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            margin-top: 0px;
+            flex: 1 1 100%; 
+           
+        
+        }
+        .boxs-4-1-1{
+            max-width: 150px;
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            margin-top: 50px;
+            flex: 1 1 100%; 
+           
+        
+        }
+       
+       
+        .content1 > p{
+            position: absolute;
+        
+            margin-top: -100px;
+        }
+        
+        .box-2-1{
+    
+            max-width: 150px;
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            margin-top: 50px;
+            
+        
+    }
+    .box-2-2{
+        max-width: 150px;
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-top: -100px;
+    }
+    .content3,
+    .content7,
+    .content8{
+        display: flex;
+    flex-direction: column;
+       min-width: 420px;
+    }
+    .content3-section,
+    .content7-section,
+    .content8-section{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 360px;
+        margin-top: -80px;
+        
+    }
+    .content3-see-more {
+        display: block;
+        text-decoration: none;
+        color: #007185;
+        padding-left: 20px;
+        margin-top: 20px;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    
+    .box-3-1,
+    .box-7-2,
+    .box-8-2{
+        max-width: 100%;
+        width: 250px;
+        height: 300px;
+        object-fit: cover;
+        margin-top: 50px;
+        
+        }
+        #box11{
+            max-width: 150px;
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            margin-top: -10px;
+            flex: 1 1 100%; 
+        margin-left: 30px;
+        }
+        .boxs1-2>p{
+            margin-left:30px ;
+        }
+        
+        .boxs-4-1-1{
+            max-width: 150px;
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            margin-top: -10px;
+            flex: 1 1 100%; 
+        margin-left: 20px;
+        }
+        .box-4-1-2,.bos3>p,.bos4>p,#finds>p,#Dining,#l,#Loved{
+           display: none;
+     
+        }
+       
+        .box-1-1-1{
+            max-width: 150px;
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            margin-top: 50px;
+            flex: 1 1 100%; 
+            min-height: 100px;
+        }
+        .box-1-1{
+            max-width: 150px;
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            margin-top: 50px;
+            flex: 1 1 100%; 
+            min-height: 100px;
+        }
+        .boxs-1-1{
+            max-width: 150px;
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            margin-top: 0px;
+            flex: 1 1 100%; 
+            min-height: 100px;
+
+}
+#Laptops{
+    max-width: 150px;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    margin-top: 0px;
+    flex: 1 1 100%; 
+margin-left: 20px;
+   }
+   .bos2>p{
+    margin-left: 30px;
+    margin-top:10px ;
+
+   }
+#runing{
+ position: relative;
+ top: -50px;
+
+}
+}
+
+@media screen and (max-width: 980px) {
+   body{
+    flex-shrink: 600px;
+   }
+ .main-image{
+    width: 100%;
+ }
+   .contents {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    gap: 20px;
+    width: 100%; 
+    max-width: 1500px; 
+    min-width: 840px; 
+    margin: -500px auto 0;
+    position: relative;
+    z-index: 10;
+}
+.contents2{
+
+ display: grid;
+    grid-template-columns: repeat(2 1fr);
+    gap: 20px;
+    width: 100%; 
+    max-width: 1500px; 
+    min-width: 840px; 
+    margin: -500px auto 0;
+    position: relative;
+    z-index: 10;
+}
+
+    .box-1-1{
+        max-width: 130px;
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-top: 50px;
+        flex: 1 1 100%; 
+        min-height: 100px;
+    }
+    .boxs-1-1{
+        max-width: 130px;
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-top: 10px;
+        flex: 1 1 100%; 
+        min-height: 100px;
+    }
+    .box-1-1-3{
+        max-width: 150px;
+        width: 100%;
+        object-fit: cover;
+        flex: 1 1 100%; 
+        min-height: 100px;
+    }
+        .box-1-1-1{
+            max-width: 130px;
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            margin-top: 50px;
+            flex: 1 1 100%; 
+            min-height: 100px;
+        }
+        .box-1-1-2{
+            max-width: 130px;
+            width: 100%;
+            object-fit: cover;
+            flex: 1 1 100%; 
+            min-height: 100px;
+           
+        }
+        
+        .content1 > p{
+            position: absolute;
+        
+            margin-top: -100px;
+        }
+        
+        .box-2-1{
+    
+            max-width: 130px;
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            margin-top: 50px;
+            
+        
+    }
+    .box-2-2{
+        max-width: 130px;
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-top: 0px;
+    }
+    #box11{
+        max-width: 150px;
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-top: -10px;
+        flex: 1 1 100%; 
+    margin-left: 15px;
+    }
+    
+    .boxs-4-1-1{
+        max-width: 130px;
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-top: -10px;
+        flex: 1 1 100%; 
+    margin-left: 0px;
+    }
+    #Laptops{
+        max-width: 150px;
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-top: 0px;
+        flex: 1 1 100%; 
+   
+       }
+    .box-4-1-2,.bos3>p{
+       
+    display: none;
+    }
+    .content3,
+    .content7,
+    .content8{
+        display: flex;
+    flex-direction: column;
+       min-width: 420px;
+       
+    }
+    .content3-section,
+    .content7-section,
+    .content8-section{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 360px;
+        margin-top: -80px;
+        
+    }
+    .content3-see-more {
+        display: block;
+        text-decoration: none;
+        color: #007185;
+        padding-left: 20px;
+        margin-top: 20px; 
+        position: relative;
+        z-index: 1;
+    }
+    
+    
+    .box-3-1,
+    .box-7-2,
+    .box-8-2{
+        max-width: 100%;
+        width: 260px;
+        height: 300px;
+        object-fit: cover;
+        margin-top: 50px;
+        
+        
+        }
+
+    
+}
+
